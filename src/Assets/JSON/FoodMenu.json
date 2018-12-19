@@ -1,0 +1,257 @@
+{
+	"FoodMenus": [
+		[
+
+			{
+				"id": "1",
+				"title": "Marilyns Cherry Romance",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "2",
+				"title": "Everyone deserves a shake-shake",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "3",
+				"title": "Mangomania",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "4",
+				"title": "Rainbow Rush",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "5",
+				"title": "Millionaires Club",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "6",
+				"title": "Cuase You Are Worth It",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "7",
+				"title": "Snowflake",
+				"price": "75 kr"
+			},
+
+			{
+				"id": "8",
+				"title": "Sweet & Salty",
+				"price": "75 kr"
+			}
+
+		],
+
+		[
+			{
+				"id": "1",
+				"title": "Yummy Chicken Wraffle",
+				"price": "139 kr"
+			},
+
+			{
+				"id": "2",
+				"title": "Royal Garden Wraffle",
+				"price": "169 kr"
+			},
+
+			{
+				"id": "3",
+				"title": "Pig On A Cloul Wraffle",
+				"price": "149 kr"
+			},
+
+			{
+				"id": "4",
+				"title": "Wicked Turkey Wraffle",
+				"price": "129 kr"
+			},
+
+			{
+				"id": "5",
+				"title": "Shrimp & Avocado Coctail Wraffle",
+				"price": "159 kr"
+			},
+
+			{
+				"id": "6",
+				"title": "Salmon & Veggies Wraffle",
+				"price": "159 kr"
+			},
+
+			{
+				"id": "7",
+				"title": "Egg & Bacon Wraffle",
+				"price": "129 kr"
+			},
+
+			{
+				"id": "8",
+				"title": "Ham & Cheese Wraffle",
+				"price": "119 kr"
+			}
+
+		],
+
+		[
+			
+			{
+				"id": "1",
+				"title": "Oreos Freakin Party",
+				"price": "99 kr"
+			},
+
+			{
+				"id": "2",
+				"title": "Banana Rumba",
+				"price": "129 kr"
+			},
+			{
+				"id": "3",
+				"title": "Peanut Butter Chocolate",
+				"price": "119 kr"
+			},
+
+			{
+				"id": "4",
+				"title": "Wicked Winter",
+				"price": "99 kr"
+			},
+
+			{
+				"id": "5",
+				"title": "Dreamingly Dream Dreamer",
+				"price": "99 kr"
+			},
+
+			{
+				"id": "6",
+				"title": "Perfect duet",
+				"price": "129 kr"
+			},
+
+			{
+				"id": "7",
+				"title": "Snowflake On Chocolate mountain",
+				"price": "129 kr"
+			},
+
+			{
+				"id": "8",
+				"title": "Cinnamonster",
+				"price": "99 kr"
+			}
+
+		],
+        
+        [
+			{
+				"id": "1",
+				"title": "Single Espresso",
+				"price": "25 kr"
+			},
+
+			{
+				"id": "2",
+				"title": "Double Espresso",
+				"price": "30 kr"
+			},
+			{
+				"id": "3",
+				"title": "Cappucino",
+				"price": "38 kr"
+			},
+
+			{
+				"id": "4",
+				"title": "Latte",
+				"price": "40 kr"
+			},
+
+			{
+				"id": "5",
+				"title": "Cortado",
+				"price": "35 kr"
+			},
+
+			{
+				"id": "6",
+				"title": "Chailatte",
+				"price": "48 kr"
+			},
+
+			{
+				"id": "7",
+				"title": "Hot Chocolate With Marshmallow Snowflakes",
+				"price": "48 kr"
+			},
+
+			{
+				"id": "8",
+				"title": "Té",
+				"price": "29 kr"
+			}
+
+		],
+
+		[
+			{
+				"id": "1",
+				"title": "Blueberry pie from heaven",
+				"price": "59 kr"
+			},
+
+			{
+				"id": "2",
+				"title": "Devils Food Chocolate Cake",
+				"price": "69 kr"
+			},
+			{
+				"id": "3",
+				"title": "Christmas Cheesecake",
+				"price": "49 kr"
+			},
+
+			{
+				"id": "4",
+				"title": "Ginger Pumpin Cake",
+				"price": "59 kr"
+			},
+
+			{
+				"id": "5",
+				"title": "Grandma's Cake",
+				"price": "69 kr"
+			},
+
+			{
+				"id": "6",
+				"title": "Fusion Mudcake",
+				"price": "59 kr"
+			},
+
+			{
+				"id": "7",
+				"title": "Love Buns",
+				"price": "39 kr"
+			},
+
+			{
+				"id": "8",
+				"title": "Saffron Pear Cake",
+				"price": "49 kr"
+			}
+
+		]
+	]
+}
