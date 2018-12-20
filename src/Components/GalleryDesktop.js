@@ -19,7 +19,7 @@ class GalleryDesktop extends Component {
 
         <div className="row gallery-second-section">
           <div className="col-3 gallery-image-desktop">
-            <img src={require('../Assets/Images/bread.jpg')} alt="wall with picture inside the café" />
+            <img src={require('../Assets/Images/bread.jpg')} alt="bread on the table at a café" />
           </div>
           <div className="offset-6 col-3 gallery-image-desktop gallery-image-margin-right">
             <img src={require('../Assets/Images/cake.jpg')} alt="coffe with chocolate cake" />

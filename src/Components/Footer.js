@@ -7,7 +7,7 @@ class Footer extends Component {
         <footer>
         <ul>
           <li>Waffely You</li>
-          <li>08-643 78 78</li>
+          <li>08-655 70 70</li>
           <li>Norrtullsgatan 5</li>
           <li>113 29 Stockholm</li>
           </ul>

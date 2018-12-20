@@ -1,0 +1,46 @@
+#gdpr-header-image {
+ background-image: url('../Images/outsidecafe.jpg');
+ height: 200px;
+}
+
+.terms-conditions-content h3 {
+    font-size: 1.8em;
+    font-family: 'Alice', serif;
+    margin-bottom: 3%;
+}
+.terms-conditions-content h4 {
+    font-size: 1.8em;
+    font-family: 'Alice', serif;
+    margin-bottom: 3%;
+}
+
+
+/* MEDIA QUERY FOR TABLET VERSION */
+@media screen and (min-width: 768px) { 
+	#gdpr-header-image {
+	 height: 300px;
+	}
+	 
+	.terms-conditions-content h3 {
+	    font-size: 2.4em;
+	}
+	.terms-conditions-content h4 {
+	    font-size: 2.4em;
+	}
+}
+
+
+
+/* MEDIA QUERY FOR DESKTOP VERSION */
+@media screen and (min-width: 1025px) {
+	#gdpr-header-image {
+	 height: 400px !important;
+	}
+	.terms-conditions-content h3 {
+	    font-size: 2.6em;
+	}
+	.terms-conditions-content h4 {
+	    font-size: 2.6em;
+	}
+
+}

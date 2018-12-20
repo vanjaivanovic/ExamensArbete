@@ -18,11 +18,13 @@ class Menu extends Component {
 
          <div className="container">
           <main>
-            <section className="first-section">
+            <section className="offset-1 col-10 first-section">
               <h2 className="first-section-title">Älskade råvaror</h2>
               <p>
-              Waffely You serverar frasiga och varma våfflor med rikligt med tillbehör. 
-              Här snålas det inte!
+              Waffely You serverar frasiga och varma våfflor med smaskiga tillbehör. 
+              Vi serverar både söta men även matigare frukost- och lunchvåfflor. 
+              På caféet finns det också freakshakes i alla möjliga smaker och utformningar.
+              Hos oss kan du sörpla i dig alltifrån en kaffe och kanelbulleshake till en veganshake.
               </p>
               <ScrollDown />
             </section>

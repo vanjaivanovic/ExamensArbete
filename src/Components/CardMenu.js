@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import FoodMenu from '../Assets/JSON/FoodMenu.json';
 
 class CardMenu extends Component{
-  constructor(props){
-    super(props);
-  }
 
   componentWillMount() {
     const { menuIndex, menuMainTitle } = this.props;
@@ -23,7 +20,7 @@ class CardMenu extends Component{
 
       <div className="container">
         <div className="row">
-          <div className="col-12 slide-in-elliptic-top-fwd menu-card">
+          <div className="col-12 col-lg-8 slide-in-elliptic-top-fwd menu-card">
             <h2 className="menu-main-title">{this.state.mainTitle}</h2>
 
             {this.state.foodMenu.map((menu, index) => {

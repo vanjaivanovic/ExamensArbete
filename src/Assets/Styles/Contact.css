@@ -2,119 +2,150 @@
   background-image: url('../Images/outsidecafe.jpg');
 }
 
-
 /* CONTACT FORM */
-
 input {
-  	outline-style: none;
-  	width: 300px;
-  	border: none;
-  	font-weight: normal;
+    outline-style: none;
+    width: 300px;
+    border: none;
+    font-weight: normal;
 }
-
 input::placeholder, textarea::placeholder {
-	color: darkgrey;
+    color: darkgrey;
 }
-
 .input-contact {
-	border: 1px solid black;
-	margin-bottom: 10px;
-	font-size: 1.7em;
-	margin-left: 15px;
-	padding-top: 8px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    margin-left: 15px;
+    padding-top: 8px;
 }
-
 textarea {
-	height: 130px;
-	outline-style: none;
+    height: 130px;
+    outline-style: none;
 }
-
-
 .contact-form-button {
-	text-align: center;
-	font-size: 1.4em;
-	padding: 8px;
-	border: 1px solid black;
-	background: #ccfff2;
-	margin-left: 4%;
+    text-align: center;
+    font-size: 1.4em;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid black;
+    background: #ccfff2;
+    margin-left: 4%;
 }
-
 /* GDPR checkbox */
 .checkbox {
-	width: 100%;
+    width: 100%;
 }
-
 .terms-text {
-	font-size: 0.7em;
-	width: 100%;
-	margin-left: -8%;
+    font-size: 0.7em;
+    width: 100%;
+    margin-left: -8%;
 }
-
+.terms-link  {
+    color: blue !important;
+} 
 
 /* MAP */
-
 .contact-map {
   margin-bottom: 10%;
 }
-
 .map-location-adress {
-	padding: 10px;
-	font-weight: bold;
-	font-size: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
 }
-
-
-
-
 /* MEDIA QUERY FOR TABLET VERSION */
-
 @media screen and (min-width: 768px) { 
+#gdpr-header-image {
+ height: 300px;
+}
  .input-contact {
-	font-size: 2.8em;
-	padding-top: 12px;
+    font-size: 2.8em;
+    padding-top: 12px;
  }
-
  textarea {
-	height: 250px;
+    height: 250px;
  }
-
  .contact-form-button {
-	font-size: 2.4em;
-	margin-left: 7%;
-	padding: 10px;	
+    font-size: 2.4em;
+    margin-left: 7%;
+    padding: 10px;
+    height: 70px;  
   }
-
  .checkbox-gdpr {
-	margin-left: -5%;
+    margin-left: -5%;
 }
-
 .terms-text {
-	font-size: 1em;
-	width: 100%;
-	margin-left: -8%;
+    font-size: 1em;
+    width: 100%;
+    margin-left: -8%;
+}
+.terms-conditions-content h3 {
+    font-size: 2.4em;
+}
+.terms-conditions-content h4 {
+    font-size: 2.4em;
+}
 }
 
 
+
+/* MEDIA QUERY LANDSCAPE MODE SMALL MOBILE*/
+@media only screen 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .contact-form-button {
+        margin-left: 6%;
+    }
+
+    .checkbox-gdpr {
+        margin-left: -4%;
+    }
+
 }
+
+
+/*Media Query for landskape mode on table*/
+@media screen and (min-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	.contact-form-button {
+    margin-left: 23% !important; 
+  }
+}
+
 
 @media screen and (min-width: 1025px) {
+#gdpr-header-image {
+ height: 400px !important;
+}
     .contact-form-button {
-	margin-left: 23.5%;
+    margin-left: 23.6% !important;
   }
-
-
 .checkbox-gdpr {
-	margin-left: 0;
-	font-size: 6em;
-	margin-top: 3px;
+    margin-left: 0;
+    font-size: 6em;
+    margin-top: 3px;
 }
-
 .terms-text {
-	font-size: 1em;
-	width: 100%;
-	margin-left: -14%;
+    font-size: 1em;
+    width: 100%;
+    margin-left: -14%;
+}
+ .input-contact {
+    font-size: 2.2em;
+ }
+
+
+.terms-conditions-content h3 {
+    font-size: 2.6em;
+}
+.terms-conditions-content h4 {
+    font-size: 2.6em;
 }
 
 }
+
+
 
 

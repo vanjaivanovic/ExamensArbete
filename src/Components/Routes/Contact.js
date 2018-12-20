@@ -16,13 +16,14 @@ class Contact extends Component {
         
         <div className="container">
           <main>
-            <section className="first-section">
+            <section className="offset-1 col-10 first-section">
               <h2 className="first-section-title">Välkommen in</h2>
               <p>
-              Välkommen in till ett retro kafé och känn doften av hembakat. 
-              Vi serverar frukost,brunch,husmanskost våfflor & wraffles alla dagar från 09.00-18.00.
-              Nostalgi lovas.
+              Välkommen in till vårt kafé och känn doften av våra hembakade bakverk. 
+              Vi serverar våfflor & wraffles och andra godsaker.
               </p>
+              <p>Alla dagar 09.00-18.00.</p>
+              <p>Välkommen in för en stund att njuta av det goda.</p>
               <ScrollDown />
             </section>
               

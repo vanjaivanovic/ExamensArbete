@@ -21,7 +21,7 @@ class Gallery extends Component {
 
       <div className="row">
         <div className="col-6 gallery-image gallery-image-left">
-          <img src={require('../Assets/Images/bread.jpg')} alt="wall with picture inside the café" />
+          <img src={require('../Assets/Images/bread.jpg')} alt="bread on the table at a café" />
         </div>
         <div className="col-6 gallery-image gallery-image-right">
           <img src={require('../Assets/Images/cake.jpg')} alt="coffe with chocolate cake" />

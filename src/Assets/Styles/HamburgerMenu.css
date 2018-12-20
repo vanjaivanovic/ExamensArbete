@@ -95,8 +95,7 @@ a:hover
 #menu
 {
   position: absolute;
-  min-height: 720px;
-  height: 100%;
+  height: 100vh;
   width: 220px;
   margin: -100px 0 0 -50px;
   padding: 60px;
@@ -125,6 +124,109 @@ a:hover
 }
 
 
+/* MEDIA QUERY PORTARIT MODE SMALL MOBILE */
+@media only screen 
+  and (max-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    #menu {
+      height: 453px !important;
+      padding-left: 80px !important;
+    }
+
+     #menu li {
+      margin-top: 25px;
+      font-size: 2em;
+    }
+}
+
+/* MEDIA QUERY LANDSCAPE MODE SMALL MOBILE */
+@media only screen 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+   #menu {
+      width: 598px;
+      height: 50px;
+      padding-top: 100px;
+      padding-left: 150px;
+     }
+
+     #menu li {
+      display: inline;
+      margin-left: 30px;
+      list-style: none;
+      font-size: 2em;
+    }
+
+
+
+
+}
+
+
+
+/* MEDIA QUERY PORTARIT MODE MOBILE */
+@media only screen 
+  and (max-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .menu-card {
+      margin-top: -215%;
+    }
+
+    #menu {
+      height: 452px !important;
+      padding-top: 100px;
+   }
+
+   #menu li {
+    margin-top: 40px; 
+   }
+}
+
+
+
+/* MEDIA QUERY LANDSCAPE MODE MOBILE */
+@media only screen 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .menu-card {
+      margin-top: -215%;
+    }
+
+   #menu  {
+    width: 700px;
+    height: 60px;
+    padding-top: 80px;
+    padding-left: 150px;
+    }
+
+       #menu li {
+      display: inline;
+      margin-left: 30px;
+      list-style: none;
+      font-size: 2em;
+    }
+
+}
+
+
+
+
+/*Media Query for landskape mode on tablet*/
+@media screen and (min-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  
+    #menu {
+      height: 790px !important;
+   }
+}
+
 
 /* MEDIA QUERY FOR TABLET VERSION */
 
@@ -142,8 +244,7 @@ a:hover
     }
 
     #menu {
-      height: 1045px;
-      height: 100%;
+      height: 770px;
       width: 280px;
       z-index: 10px;
    }
@@ -160,8 +261,8 @@ a:hover
 /* MEDIA QUERY FOR DESKTOP VERSION */
 
 @media screen and (min-width: 1025px) {
-     #menu {
-      height: 100vh;
+    #menu {
+     height: 720px !important;
    }
 
   

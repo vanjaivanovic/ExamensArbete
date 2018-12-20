@@ -1,5 +1,5 @@
 .wrapper-startpage {
-	background-image: url('../Images/waffles.jpg');
+	background-image: url('../Images/startpage.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -12,6 +12,9 @@
 	text-transform: uppercase;
 	font-family: 'Alice', serif !important;
 	font-weight: 400;
+	background: rgba(0, 0 , 0, 0.76);
+	padding: 7px;
+	margin-top: 10px;
 }
 
 .carousel-inner {
@@ -19,7 +22,12 @@
 }
 
 .carousel-indicators {
-	margin-left: 21% !important;
+	margin-left: 20% !important;
+}
+
+.carousel-indicators li {
+	background: black !important;
+	border: 1px solid black;
 }
 
 .carousel-control {
@@ -103,6 +111,19 @@
 	z-index: 0;
 }
 
+/* MEDIA QUERY PORTARIT MODE SMALL MOBILE */
+@media only screen 
+  and (max-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+   .carousel {
+		margin-top: -28%;
+	}
+
+}
+
+
 
 
 /* MEDIA QUERY FOR TABLET VERSION */
@@ -139,6 +160,12 @@
 	}
 }
 
+/*Media Query for landskape mode on table*/
+@media screen and (min-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	.carousel {
+		margin-top: -30%;
+	}
+}
 
 
 /* MEDIA QUERY FOR DESKTOP VERSION */

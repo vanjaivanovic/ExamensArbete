@@ -14,7 +14,7 @@ class Carousel extends Component {
           </ol>
           <div className="carousel-inner">
             <div className="item active">
-              <Card sliderTitle="Passion" cardTitle="Passion" cardText="Vad är en våffla utan kärlek? På Waffely You vill vi att allting ska kännas så hemmakär som möjligt. Därför lägger vi en knutta kärlek i allt och det vi tar oss an på gör vi med omsorg."/>
+              <Card sliderTitle="Passion" cardTitle="Passion" cardText="Vad är en våffla utan kärlek? På Waffely You vill vi att allting ska kännas så hemmakärt som möjligt. Därför lägger vi mycket kärlek och omsorg i allt vi gör."/>
             </div>
 
             <div className="item">
@@ -22,7 +22,7 @@ class Carousel extends Component {
             </div>
           
             <div className="item">
-               <Card sliderTitle="Personal" cardTitle="Personal" cardText="Waffely You är en plats för vänner och familj. Låt vår vänliga, livfulla och 50tals klädda personal ta hand er. Barnen kommer att älska det! Det lovar vi."/>
+               <Card sliderTitle="Meny" cardTitle="Meny" cardText="Waffely You är en plats för vänner och familj. Låt våra ljuvliga, hembakade bakverk charma era sinnen. Även barnen kommer att älska det! Det lovar vi."/>
             </div>
           </div>
           <a className="left carousel-control" href="#myCarousel" data-slide="prev">
