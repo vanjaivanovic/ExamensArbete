@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vanjaivanovic/ExamensArbete/precache-manifest.55a85ac4661da49e98c055d5d3c1b32d.js"
+  "/ExamensArbete/precache-manifest.2256471bbe7651dd1a96ead3947b033a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vanjaivanovic/ExamensArbete/index.html", {
+workbox.routing.registerNavigationRoute("/ExamensArbete/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
