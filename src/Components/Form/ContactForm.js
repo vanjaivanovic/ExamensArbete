@@ -29,18 +29,28 @@ handleFormInputValue(e){
 
 }
 
+  /* Uses an advanced RegEx that controls if email is correct.
+  Returns true or false. */
+
+  validateEmail(){
+    let email = this.state.email;
+    const regEx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return regEx.test(String(email).toLowerCase());
+  }
+
 //Sends message to email adress through PHP 
   sendMessageToEmail(e) {
-    e.preventDefault(); // Prevents page to reload when click on send button
+    
+   e.preventDefault(); // Prevents page to reload when click on send button
 
+   if(this.validateEmail()){
+    console.log('correct email');
+    
     let contactFormInfo = {
         userEmail: this.state.email,
         userName: this.state.name,
         userMessage: this.state.message
     }
-
-
-    console.log(contactFormInfo);
 
 //Sending the contact information to php, that is stored in the object 'contactFormInfo', with a post method
   return fetch('http://localhost/SendEmail.php', {
@@ -54,6 +64,11 @@ handleFormInputValue(e){
     .catch((error) => {
       this.messageNotSend();
     })
+
+     } else {
+      console.log('invalid email');
+    }
+    
 }
 
 confirmationMessage(){
