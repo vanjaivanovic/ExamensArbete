@@ -2,7 +2,7 @@
   "name": "alskadetraditioner",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vanjaivanovic.github.io/ExamensArbete/",
+  "homepage": "https://github.com/vanjaivanovic/ExamensArbete",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "gh-pages": "^2.0.1",
