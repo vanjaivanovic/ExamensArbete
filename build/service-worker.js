@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ExamensArbete/precache-manifest.2256471bbe7651dd1a96ead3947b033a.js"
+  "/ExamensArbete/precache-manifest.9719184c912be46057405f362e596153.js"
 );
 
 workbox.clientsClaim();
