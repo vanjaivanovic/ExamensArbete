@@ -4,7 +4,7 @@
   "private": true,
   "main": "App.js",
 
-   "homepage": "https://vanjaivanovic.github.io/ExamensArbete/",
+   "homepage": "https://vanjaivanovic.github.io/ExamensArbete",
 
   "dependencies": {
     "bootstrap": "^4.1.3",
