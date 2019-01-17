@@ -6,7 +6,8 @@ class ContactForm extends Component {
       this.state = { 
             name: "",
             email: "",
-            message: ""
+            message: "",
+            invalidEmailAdress: ""
     }
 
 
@@ -43,8 +44,11 @@ handleFormInputValue(e){
     
    e.preventDefault(); // Prevents page to reload when click on send button
 
-   if(this.validateEmail()){
-    console.log('correct email');
+   if( this.validateEmail() ){
+
+    this.setState({
+        invalidEmailAdress: ""
+    })
     
     let contactFormInfo = {
         userEmail: this.state.email,
@@ -65,18 +69,26 @@ handleFormInputValue(e){
       this.messageNotSend();
     })
 
-     } else {
-      console.log('invalid email');
+     } else if ( this.validateEmail() ) {
+      this.setState({
+        invalidEmailAdress: "Du har inte angivit rätt email adress. Var snäll och försök igen."
+      })
+    } else {
+      this.setState({
+        confirmationMessage: "Något gick fel, prova igen!"
+      })
     }
     
 }
 
+/* When contact form has been send, function called in response */
 confirmationMessage(){
   this.setState({
     confirmationMessage: "Tack för ditt meddelande! Vi hör av oss så fort vi kan."
   })
 }
 
+/* error message when something went wrong in POST method */
 messageNotSend(){
    this.setState({
     confirmationMessage: "Något gick fel, prova igen!"
@@ -90,6 +102,7 @@ messageNotSend(){
       <div className="contact-form">
           <h2 className="second-section-title">Kontakta oss</h2>
           <p>{this.state.confirmationMessage}</p>
+          <p className="invalid-email">{this.state.invalidEmailAdress}</p>
           <form>
               <div className="row">
                 <div className="col-11 input-contact">

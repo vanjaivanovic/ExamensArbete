@@ -1,11 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import './Assets/Styles/Keyframes.css';
 
-import {
- BrowserRouter as Router,
- Route
-} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import Home from './Components/Routes/Home.js';
 import Menu from './Components/Routes/Menu.js';
@@ -14,9 +11,9 @@ import Contact from './Components/Routes/Contact.js';
 import GDPR from './Components/Gdpr.js';
 
 
-function App() {
- return(
-    <Router>
+class App extends Component {
+  render(){
+    return(
        <div>
            <Route path="/" component={Home} exact/>
            <Route path="/Menu" component={Menu} />
@@ -24,9 +21,10 @@ function App() {
            <Route path="/Contact" component={Contact} />
            <Route path="/Gdpr" component={GDPR} />
 
-         </div>
-     </Router>
- );
+       </div>
+    );
+  }
+ 
 }
 
 

@@ -4,6 +4,11 @@ p {
   font-size: 1.5em;
 }
 
+.cafe-title-link {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
 .scrollDown-icon {
   margin-top: 5%;
   margin-bottom: 10%;
@@ -21,17 +26,29 @@ header {
   position: relative;
 }
 
+ .cafe-title {
+  font-size: 6em;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lovers Quarrel', cursive;
+  text-align: center;
+  margin-top: 3%;
+  text-shadow: 3px 3px black;
+
+}
+
 .hero-text {
   color: white;
   position: absolute;
   text-transform: uppercase;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
       background: #000000ba;
     padding-right: 20px;
     padding-left: 20px;
 }
+
 
 .hero-title {
   font-size: 4.5em;
@@ -123,12 +140,22 @@ footer li {
     height: 750px;
   }
 
+  .cafe-title {
+    font-size: 18em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    margin-top: -5%;
+    text-shadow: 4px 4px black;
+ }
+
   .hero-title {
     font-size: 8em !important;
   }
 
  .hero-text {
-  top: 87%;
+  top: 80%;
  }
 
  .first-section-title{
@@ -172,7 +199,7 @@ footer li {
   }
 
    .hero-text {
-    top: 80%;
+    top: 85%;
 
    }
 
@@ -184,7 +211,7 @@ footer li {
 
   footer ul li { 
     display: inline;
-    margin-left: 70px;
+    margin-left: 50px;
     list-style: none;
   }
 
