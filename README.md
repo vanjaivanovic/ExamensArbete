@@ -4,7 +4,7 @@ Created by Vanja Ivanovic & Catalina Pradilla Rocha
 
 Respository: <https://github.com/vanjaivanovic/ExamensArbete>
 
-GitHub Pages: <https://vanjaivanovic.github.io/ExamensArbete/>
+GitHub Pages: <https://vanjaivanovic.github.io/>
 
 ## Description
 
